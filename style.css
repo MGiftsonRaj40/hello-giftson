@@ -830,12 +830,26 @@ section {
 
 #projects ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
 .projects {
-    width: 30vw;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.project-top {
+    flex: 1;
+}
+
+.project-description {
+    flex: 1;
+}
+
+.project-description h4 {
+    margin-top: 0;
 }
 
 .list {
