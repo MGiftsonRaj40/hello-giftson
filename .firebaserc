@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "hello-giftson",
+    "hosting": "hello-giftson"
+  },
+  "targets": {},
+  "etags": {}
+}
